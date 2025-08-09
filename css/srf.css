@@ -1,0 +1,35 @@
+ /*CSS Added By Gaurang : I have putted that all code to make look better in mobile responsive Date : 18-6-2018 */
+ #frm_illness table td {
+  padding: 0px!important;
+}
+
+@media only screen and (max-width: 600px) {
+  .res_double_div{
+    width: 100%!important;
+  }
+  
+  .hv-frm_illness table td{
+    font-size: 12px;
+  }
+  .hv-frm_illness table tr{    
+    /* padding: 10px 0px; */
+    display: inline-block;
+    width: 100%;
+  }
+  .hv-name{    display:initial;
+    vertical-align: 2px;
+  }
+  .hv-frm_questions label{    /* float: none !important;  */    display: inline-block;  vertical-align: -5px; margin-left: 3px;} 
+  .hv-FixWidth{width:35%;}
+  .hv-FixWidth span{font-size: 14px;}
+  .hv-FixWidth-content label{ font-size: 13px;  word-break: break-word;} 
+  .Hv-HalfWidth{  width: 100% !important;     float: none !important;     display: block;}
+  .content-wrap{    padding: 0 5px;}
+  .checkbox_row_single {width:100%;    clear: both;}
+  
+}
+/*CSS changed by Gaurang Date : 21-6-2018 */
+.checkbox_row_single {display: table;}
+
+/* style write by upwork ID: rafiquli34 */
+.Hv-HalfWidth > label{display:block; border:1px solid #ddd;margin-top:15px;margin-right:10px;padding-top:10px;padding-left:10px;}

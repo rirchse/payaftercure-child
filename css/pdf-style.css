@@ -1,0 +1,28 @@
+table {
+width:95%;
+}
+
+th, td {
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   text-align: left;
+}
+
+ol {
+    width:400px;
+    border:0px solid black;
+        -moz-column-count: 2;
+        -moz-column-gap: 20px;
+        -webkit-column-count: 2;
+        -webkit-column-gap: 20px;
+        column-count: 2;
+        column-gap: 20px;
+    }
+
+#disclaimer_div, #answers_div, #prescription_not_correct, #prescription_correct {
+margin-bottom: 15px;
+}
+
+.graph_img {
+height: 15px;
+}

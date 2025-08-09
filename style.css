@@ -1,0 +1,1111 @@
+/*
+Theme Name: Veggie Lite Child
+Theme URI: http://www.anarieldesign.com/free-food-recipes-wordpress-theme/
+Template: veggie-lite
+Author: Anariel Design
+Author URI: http://www.anarieldesign.com/
+Description: Veggie Lite is a lite &amp; free version of beautiful premium WordPress theme Veggie. Theme is perfect for creating food-related websites. It is a great fit for recipe websites, blogs, magazines and more. Veggie is built mobile first and is pleasure to view on devices of all sizes. It features modern, easy-to-read typography and minimalistic design. As a bonus and a real treat in this theme are our own healthy recipes we use and enjoy on daily basis. You are more than welcome to try and share. Recipes are accompanied by real and royalty free images we made while preparing these meals. Bon Appetit!
+Tags: black,blue,white,light,two-columns,left-sidebar,right-sidebar,responsive-layout,accessibility-ready,custom-background,custom-colors,custom-header,custom-menu,editor-style,featured-images,microformats,post-formats,rtl-language-support,sticky-post,threaded-comments
+Version: 1.0.7.1460662682
+Updated: 2016-04-14 14:38:02
+
+*/
+
+.site-main {
+width: 100%; 
+}
+
+h1.entry-title{display:none;}
+
+#post-4926 .nologin-text{text-align:center;}
+
+.copyright{text-align:center;}
+
+.full-data{width:100%;}
+.left-data{width:70%;float:left;}
+.right-data{width:29%;float:left;}
+.right-data form{margin-top:-40px;}
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"]{
+	-webkit-appearance: none;
+}
+
+
+#frm_illness table{margin: 0 0 0.75em !important;}
+
+.show td{line-height: 30px !important}
+.hasDatepicker {
+   float: right;
+    position: absolute;
+    left: 34em;
+    top: 53px;
+}
+#main_health {
+       float: right;
+    position: absolute;
+    left: 34em;
+    top: 0px;
+}
+
+.hasDatepicker {
+float: right;
+position: static;
+left: 34em;
+top: 53px;
+width: 50.7%;
+padding: 5px !important;
+	    margin: 0 !important;
+}
+
+.show.reltv td {
+    line-height: 1 !important;
+}
+input[type="file"] {
+              cursor: pointer !important;
+            }
+[type='file'],
+[type='image'] {
+cursor: pointer;
+}
+[type='file']::-webkit-file-upload-button {
+-webkit-appearance: button;
+cursor: pointer;
+}
+
+.form_step_11 textarea{width:100% ; resize:none}
+.form_step_7 h4{text-align:left !important}
+
+.left-data tr.form_step_5.rels{ width:541px !important;}
+
+.member_port table{
+    margin:0
+}
+ .member_port table p{
+    margin-bottom:5px
+}
+ .member_port p{
+    margin-bottom:5px
+}
+ .member_port h1, .member_port h2, .member_port h3, .member_port h4, .member_port h5, .member_port h6{
+    margin-bottom:15px
+}
+ .left-data form#frm-portal {
+    
+     position: relative;
+}
+ .left-data tr.form_step_5 {
+    
+}
+ tr.form_step_5.nowss{
+   /* display:table-row */
+   
+}
+ .left-data tr#select_family_member_tr.show.reltv {
+     position: relative;
+     top: -150px;
+     display: block;
+     width: 100%;
+     min-width: 740px;
+}
+ .left-data form#frm-family-member {
+     position: relative;
+     top: 60px;
+}
+ .left-data tr.form_step_5.rels {
+     position: relative;
+    
+     display: inline-block;
+     width: 100%;
+}
+ .member_port select,.member_port input{
+    height:34px
+}
+ .hentry{
+    margin-bottom:10px
+}
+ .entry-content{
+    margin-bottom:10px
+}
+ .hentry p{
+    margin-bottom:5px
+}
+ div#case-update-grid-div {
+     margin-top: 15px !important;
+}
+ .site p{
+    margin-bottom:10px
+}
+ p.instructions a{
+    text-decoration:underline;
+}
+ input#btn_question_submit {
+     display: block;
+     margin: 10px 0;
+}
+ .member_port {
+     padding: 10px;
+     text-align: justify;
+}
+ @media (max-width:767px){
+	 .hasDatepicker{
+		 position:static;
+		 width:100%;
+	 }
+	 .left-data tr.form_step_5.rels {
+    width: 100% !important;
+}
+	 table#admin_form_table td,table#admin_form_table td:first-child {width:100%}
+	 form#frm-family-member {
+    margin-top: 0px;
+}
+	 #main_health{
+		 position:static;
+		 width:100%;
+		 float:left;
+		 clear:both;
+	 }
+/* #content select{margin-top:12px} */
+#admin_form_table tr.show.reltv {
+    margin-top: -2px;
+}
+     .left-data form#frm-portal {
+         position: relative;
+    }
+     div#case-update-grid-div {
+         width: 100%;
+    }
+     .left-data form#frm-portal tr#select_family_member_tr select.one-third{
+        width:100%
+    }
+     .left-data form#frm-family-member {
+         position: relative;
+         top: 0px;
+    }
+     .post form{
+        background:none
+    }
+     .member_port select, .member_port input {
+         height: 34px;
+         width: 100%;
+    }
+     .left-data{
+        float:none;
+        width:100%
+    }
+     .content-wrap #content pre {
+         display: none !important;
+    }
+     .post-page-content h2{
+        display:none !important
+    }
+     .post-page-content {
+         padding: 0 10px !important;
+    }
+     #progressbar li {
+         margin: 0;
+         line-height: 15px;
+    }
+     #progressbar li:after {
+         width: 55% !important;
+         left: -27.5%!important;
+    }
+     p.instructions{
+        text-align:justify;
+        padding:10px
+    }
+     .main-navigation button.menu-toggle:before {
+         content: "";
+         width: 25px;
+         height: 3px;
+         background: #000;
+         position: absolute;
+         left: 0;
+         top: -6px;
+         transition:.5s ease;
+    }
+     .main-navigation button.menu-toggle:after {
+         content: "";
+         width: 25px;
+         height: 3px;
+         background: #000;
+         position: absolute;
+         left: 0;
+         top: 6px;
+         transition:.5s ease;
+    }
+     .main-navigation button.menu-toggle {
+         width: 25px;
+         position: absolute;
+         height: 3px;
+         background: #000;
+         border: 0;
+         box-shadow: none;
+         transition:.5s ease;
+         margin-top:0;
+         right:25px
+    }
+     .main-navigation > div > ul {
+         padding-bottom: 1.75em;
+         padding-top: 15px;
+    }
+     .main-navigation.toggled .menu-toggle{
+        background:none
+    }
+     .main-navigation.toggled .menu-toggle:after{
+        transform:rotate(-45deg);
+        -webkit-transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);
+        -moz-transform:rotate(-45deg);
+        -o-transform:rotate(-45deg);
+        transition:.5s ease;
+        top:0;
+        -webkit-transition:.5s ease;
+        -ms-transition:.5s ease;
+        -moz-transition:.5s ease;
+    }
+     .main-navigation.toggled .menu-toggle:before{
+        transform:rotate(45deg);
+        -webkit-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+        -moz-transform:rotate(45deg);
+        -o-transform:rotate(45deg);
+        transition:.5s ease;
+        top:0;
+        -webkit-transition:.5s ease;
+        -ms-transition:.5s ease;
+        -moz-transition:.5s ease;
+    }
+     .entry-content table td {
+         width: 100%;
+         display: block;
+    }
+     .entry-content table tr {
+         width: 100%;
+         display: block;
+		 margin:10px 0
+    }
+     .entry-content table {
+         margin: 0;
+         width: 100%;
+    }
+     #case-update-grid_wrapper table#case-update-grid{
+        display:table;
+        margin:10px 0
+    }
+     #case-update-grid_wrapper table#case-update-grid table tr {
+         display: table;
+         width: 100%;
+    }
+	/*Css edited by Gaurand 20-6-2018*/
+     #case-update-grid_wrapper table#case-update-grid th.sorting_asc{
+        /* width:23% !important; */
+        display:inline-block;
+        padding:10px 4px;
+        font-size:11px
+    }
+     #case-update-grid_wrapper table#case-update-grid th.sorting{
+        width:22% !important;
+        display:inline-block;
+        padding:10px 4px;
+        font-size:11px
+    }
+     #case-update-grid_wrapper table#case-update-grid th,#case-update-grid_wrapper table#case-update-grid td{
+        width:22% !important;
+        display:inline-block;
+        padding:10px 4px;
+        font-size:11px;
+        height:60px
+    }
+	tr.show.reltv {
+    margin-top: -63px;
+}
+     .site {
+         padding: 0 0.75em;
+    }
+     #case-update-grid_wrapper table#case-update-grid td{
+         height:auto 
+    }
+     
+	 
+     #frm-portal td:first-child {
+         vertical-align: top;
+         width: 55% !important;
+    }
+     #frm-portal td:last-child, #admin_form_table td:last-child{
+         width: 45% !important;
+		 font-size:12px !important;
+    }
+     #wordpress_file_upload_form_1 input#input_1 {
+         height: 35px;
+         border: 1px solid #000;
+         padding: 3px;
+    }
+	#frm-portal table td input[type="radio"] {
+    width: auto !important;
+    display: inline;
+	margin-left:0px;
+	margin-right:4px;
+}
+}
+ input#dp1524818378680 {
+     display: none !important;
+}
+ .copyright {
+     font-size: 11px;
+}
+ h3, h4 {
+     text-align: center;
+}
+ table {
+     width:95%;
+}
+ th, td {
+     border-top: 1px solid gray;
+     border-bottom: 1px solid gray;
+     text-align: left;
+     vertical-align: middle;
+}
+ ol {
+     width:400px;
+     border:0px solid black;
+     -moz-column-count: 2;
+     -moz-column-gap: 20px;
+     -webkit-column-count: 2;
+     -webkit-column-gap: 20px;
+     column-count: 2;
+     column-gap: 20px;
+}
+ #disclaimer_div, #answers_div, #prescription_not_correct, #prescription_correct {
+     margin-bottom: 15px;
+}
+ .button {
+     height: 30px;
+     line-height: 28px;
+     padding: 0 12px 2px;
+}
+ .button-primary {
+     background: none repeat scroll 0 0 #2ea2cc;
+     border-color: #0074a2;
+     box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+     color: #fff;
+     text-decoration: none;
+}
+ .button-primary:hover {
+     background: none repeat scroll 0 0 #1e8cbe;
+     border-color: #0074a2;
+     box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+     color: #fff;
+}
+ .button-next, .button-prev {
+     /* position: relative; */
+     left: 350px;
+}
+/*progressbar*/
+ #progressbar {
+     margin: 30px 0px 35px 0px;
+     overflow: hidden;
+    /*CSS counters to number the steps*/
+     counter-reset: step;
+     list-style-type: none !important;
+    /*margin: 0 auto;
+    */
+    /*left: 100px;
+    */
+     display: block;
+    /*margin-left: 112px;
+    */
+}
+ #progressbar li {
+     list-style-type: none !important;
+     color: black;
+     text-transform: uppercase;
+     font-size: 9px;
+     width: 20%;
+     float: left;
+     position: relative;
+     background-image: none !important;
+     padding-left: 0px !important;
+     text-align: center;
+}
+ #progressbar li:before {
+     content: counter(step);
+    /*counter-increment: step;
+    */
+     width: 30px;
+     line-height: 30px;
+     display: block;
+     font-size: 13px;
+     font-weight: bold;
+     color: #ffffff;
+     background: #EF8F00;
+     border-radius: 3px;
+     margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+ #progressbar li:after {
+     content: '';
+     width: 85%;
+     height: 2px;
+     background: #EF8F00 !important;
+     position: absolute;
+     left: -42.50%;
+     top: 14px;
+     z-index: 1;
+    /*put it behind the numbers*/
+     margin-left: 0px;
+}
+ #progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+     content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+ #progressbar li.active:before, #progressbar li.active:after{
+     background: #27AE60;
+     color: white;
+}
+ h3 {
+     text-align: center;
+}
+ th, td {
+     border-top: 1px solid gray;
+     border-bottom: 1px solid gray;
+}
+ tr td:first-child{
+     width:40%;
+}
+ tr td:last-child {
+     width:60%;
+}
+ a:hover {
+     cursor: pointer !important;
+     cursor: hand !important;
+}
+ .button {
+     height: 30px;
+     line-height: 28px;
+     padding: 0 12px 2px;
+}
+ .button-primary {
+     background: none repeat scroll 0 0 #2ea2cc;
+     border-color: #0074a2;
+     box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+     color: #fff;
+     text-decoration: none;
+}
+ .button-primary:hover {
+     background: none repeat scroll 0 0 #1e8cbe;
+     border-color: #0074a2;
+     box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+     color: #fff;
+     cursor: pointer;
+}
+ input#choice5619 {
+     display: none;
+}
+ td {
+     border: none;
+}
+/*progressbar*/
+ #progressbar {
+     margin: 30px 0px 35px 0px;
+     overflow: hidden;
+    /*CSS counters to number the steps*/
+     counter-reset: step;
+     list-style-type: none !important;
+    /*margin: 0 auto;
+    */
+    /*left: 100px;
+    */
+     display: block;
+    /*margin-left: 112px;
+    */
+}
+ #progressbar li {
+     list-style-type: none !important;
+     color: black;
+     text-transform: uppercase;
+     font-size: 9px;
+     width: 20%;
+     float: left;
+     position: relative;
+     background-image: none !important;
+     padding-left: 0px !important;
+     text-align: center;
+}
+ #progressbar li:before {
+     content: counter(step);
+    /*counter-increment: step;
+    */
+     width: 30px;
+     line-height: 30px;
+     display: block;
+     font-size: 13px;
+     font-weight: bold;
+     color: #ffffff;
+     background: #EF8F00;
+     border-radius: 3px;
+     margin: 0 auto 5px auto;
+}
+/*progressbar connectors*/
+ #progressbar li:after {
+     content: '';
+     width: 85%;
+     height: 2px;
+     background: #EF8F00 !important;
+     position: absolute;
+     left: -42.50%;
+     top: 14px;
+     z-index: 1;
+    /*put it behind the numbers*/
+     margin-left: 0px;
+}
+ #progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+     content: none;
+}
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+ #progressbar li.active:before, #progressbar li.active:after{
+     background: #27AE60;
+     color: white;
+}
+ @media (max-width: 850px) {
+     #frm_questions table tbody tr td div {
+         width: 100%;
+    }
+     #frm_illness table tbody tr td {
+         width: 100%!important;
+         float: left!important;
+    }
+}
+ p.instructions{
+    padding-top:50px;
+}
+ div#validated_4228 {
+     display: none !important;
+}
+ .member_por {
+     text-align: center;
+}
+ select {
+     font-family: 'FontAwesome', 'sans-serif';
+}
+ #frm-portal td:first-child {
+     vertical-align: top;
+     width: 40%;
+}
+ #frm-portal td:last-child, #admin_form_table td:last-child{
+     vertical-align: top;
+     width: 60%;
+}
+ table.dataTable tbody td {
+     vertical-align: top;
+}
+ .file_messageblock_filesubheader_tr {
+     display:block!important;
+     color:#660000!important;
+     font-weight: bold!important;
+}
+ .file_messageblock_filearrow_td {
+     display:none!important 
+}
+ .file_messageblock_filesubheader_messagelabel {
+     font-weight: bold!important;
+}
+ .post-page-content {
+     padding-left: 0px;
+     padding-right: 0px;
+}
+ #case-update-grid_length label {
+     margin-left: 10px;
+}
+ .form_group_2 {
+     display: none;
+}
+ .hide {
+     display:none;
+    /* position: absolute !important;
+     top: -9999px !important;
+     left: -9999px !important;
+     */
+}
+ .fa-smile-o {
+     color: green;
+     vertical-align: bottom;
+}
+ .fa-meh-o {
+     color: gray;
+     vertical-align: bottom;
+}
+ .fa-frown-o {
+     color: red;
+     vertical-align: bottom;
+}
+ .post-3659 .post-thumbnail {
+     text-align: center;
+}
+/*code added by gaurang : 21-6-2018*/
+@media screen and (max-width:1299px){
+    .single_blog_sec h2.entry-title {
+        min-height: 128px !important; 
+    }
+}
+ @media (min-width:768px) and (max-width:1160px){
+
+     .left-data > p {
+         margin-top: -20px;
+    }
+}
+ button#delete_member {
+     float: right;
+}
+
+span#main_health_problem_display {
+    display: none;
+}
+.left-data tr.form_step_5.rels h4 {
+    text-align: left;
+}
+button#delete_member {
+    font-size: 14px;
+}
+.entry-content ol{
+	column-gap: 0px;
+	column-count: 1;
+	width: 100%;
+}
+div#wordpress_file_upload_form_1 {
+    cursor: pointer;
+	z-index: 99999;height:40px}
+div.file_div_clean_responsive{
+	margin-right:10px
+}
+
+
+p.select_fam {
+    /* float: left; */
+    width: 400px ;
+    display: inline-block ;
+    vertical-align: middle ;
+}
+
+.full-data select, .full-data input {
+    width: 400px ;
+    display: inline-block;
+    float: none !important;
+}
+
+
+#last_payment_date_display {
+float:none !important;
+display:inline-block;
+width:400px;
+}
+
+
+@media(max-width:800px){
+	.helth_porob{
+		float:none !important;
+		display:block;
+	}
+	.full-data{
+		display:block !important;
+	}
+	.full-data select, .full-data input {
+    width: 100% !important;
+    display: block;
+	margin-top:15px;
+    float: none !important;
+}
+
+p.select_fam {
+     float: none !important;
+    width: 100% !important;
+    display: block !important;
+    vertical-align: middle !important;
+}
+.left-data form#frm-portal {
+    top: 0px !important; 
+    position: relative; 
+}
+#last_payment_date_display {
+    float: none !important;
+    display: block;
+    width: 100%;
+}
+
+button#delete_member{
+    display:none !important;
+}
+
+#frm-portal td:first-child {
+    vertical-align: top;
+    width: 62% !important;
+	padding-right:10px;
+}
+
+}
+
+ @media (max-width:500px){
+	 #case-update-grid_wrapper table#case-update-grid th,#case-update-grid_wrapper table#case-update-grid td{
+        width:22% !important;
+       
+    }
+	 .entry-content table td {
+         width: 100%;
+         display: block;
+    }
+     .entry-content table tr {
+         width: 100%;
+         display: block;
+		 margin:10px 0
+    }
+     .entry-content table {
+         margin: 0;
+         width: 100%;
+    }
+     #case-update-grid_wrapper table#case-update-grid{
+        display:block;
+        margin:10px 0
+    }
+     #case-update-grid_wrapper table#case-update-grid table tr {
+         display: block;
+         width: 100%;
+    }
+	/*code edited by gaurang : 21-6-2018*/
+	.single_blog_sec h2.entry-title {
+		width: 100%;
+		display: inline-block;
+                min-height: 155px !important;
+                line-height: 1em;
+                padding: 10px 10px;
+	}
+        .single_blog_sec h2.entry-title a {
+            font-size: 17px;
+        }
+        .single_blog_sec {
+            margin-bottom: 5px !important;
+        }
+	
+ }
+ 
+	/*code edited by gaurang : 21-6-2018*/
+ @media screen and (max-width:600px){
+	.single_blog_sec h2.entry-title {
+            width: 100%!important;
+            display: inline-block;
+            min-height: 155px !important;
+            line-height: 1em;
+            padding: 10px 10px;
+        }
+        .single_blog_sec h2.entry-title a {
+            font-size: 17px;
+        }
+        .single_blog_sec {
+            margin-bottom: 5px !important;
+        }      
+	
+ } 
+ 
+/*  SECTIONS ============================================== */
+
+.w-100 {
+    width:100% !important;
+}
+
+.w-50 {
+    width:50% !important;
+}
+
+.float-left {
+    float:left !important;
+}
+
+.float-right {
+    float:right !important;
+}
+
+.rightg49, .pac-select-box {
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.full-data select, .full-data input, p.select_fam {
+    width: 100%;
+}
+
+button#delete_member {
+    float: left;
+    padding: 2px;
+    color: red;
+    box-shadow: none;
+}
+
+.health_prob {
+    border: 1px solid #d8d8d8 !important;
+    box-shadow: none !important;
+    background: #f2f2f2 !important;
+    padding: 3px 6px !important;
+}
+
+#wordpress_file_upload_textbox_1 input {
+    box-shadow: none !important;
+}
+
+#wordpress_file_upload_form_1 {
+    float: left;
+    margin-top: 8px;
+}
+
+#wordpress_file_upload_form_1 input#input_1 {
+    height: 35px;
+    border: 1px solid #000;
+    padding: 3px 8px;
+    background: #f2f2f2;
+}
+
+#wordpress_file_upload_message_1 {
+    float: left;
+    clear: both;
+    margin-top: 5px;
+    width: 100% !important;
+}
+
+.file_input_uploadform input[type=button] {
+    box-shadow: none !important;
+    font-weight: 500;
+    color: #444;
+}
+
+.pac-submit-btn {
+    margin-top: 3rem;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 1rem;
+}
+
+
+.pac-submit-btn .btn-portal-submit {
+    width: 100px;
+    color: #333;
+    padding: 8px 0;
+    border: 1px solid #c8c8c8;
+    background-color: #f3f6f8;
+    font-weight: 500;
+}
+
+#btn-portal-cancel {
+    line-height: 36px;
+    color: #F44336;
+}
+
+
+.add_fam_member__input {
+    border: 1px solid #AAA;
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.pac-input {
+    background: #f2f2f2 !important;
+    border: 1px solid #ddd;
+    width: auto !important;
+    min-width: 50%;
+}
+
+.pac-submit_btn {
+    width: 100px;
+    color: #333 !important;
+    padding: 8px 0 !important;
+    border: 1px solid #c8c8c8 !important;
+    background-color: #f3f6f8 !important;
+    font-weight: 500 !important;
+}
+
+.pac-sec-submit {
+    position: relative;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+#frm-portal td:last-child, #admin_form_table td:last-child{
+         display: table-cell !important;
+}
+    
+.left-data tr.form_step_5.rels {
+    display: table-row;
+}    
+    
+#frm-portal td:first-child, #frm-portal td:last-child {
+    vertical-align: top;
+    width: 48%;
+}   
+
+
+.form_step_6 label {
+    display: inline-flex;
+    margin: 0 8px;
+}
+
+.form_step_6 label:first-child {
+    display: inline-flex;
+    margin: 0;
+}
+
+
+.form_step_6 label input {
+    display: inline-flex;
+    margin: 0 8px;
+    width:20px !important;
+}
+
+
+#wfu_messageblock_1 td:last-child {
+    display: block !important;
+    border: 0;
+}
+
+div#wfu_messageblock_arrow_1_down_1, #wfu_messageblock_arrow_1, #wfu_messageblock_arrow_1_down {
+    display: none;
+}
+
+
+ @media screen and (max-width:800px){
+
+#frm-portal td:first-child {
+    vertical-align: top;
+    width: 100% !important;
+    padding-right: 0;
+    display: block;
+}
+
+#frm-portal td:last-child, #admin_form_table td:last-child {
+    width: 100% !important;
+    display: block !important;
+}
+
+#btn-portal-cancel {
+    display: block !important;
+    text-align: center !important;
+    margin: 10px auto !important;
+}
+
+#wordpress_file_upload_message_1 {
+    margin-top: 22px;
+}
+
+.pac-submit-btn input {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    margin-top: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+}
+
+td.bottom_comments {
+    width: 100% !important;
+}
+td.bottom_comments textarea {
+    height: 82px !important;
+}
+
+/* customize css by Rafique */
+
+.primarymenu{
+    background:#fff;
+    border-top: 0;
+}
+.brand{max-width:10%}
+.brand img{margin-top:10px}
+.menu-top-container{width:100%}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:99999
+}
+.sticky + #page { 
+    padding-top: 102px;	
+}
+@media only screen and (min-width: 768px)
+{
+.brand, .main-navigation{display:table-cell}
+}
+
+@media only screen and (max-width: 767px) 
+{
+.main-navigation ul li a {
+    display:block;
+    border-bottom:1px solid #ddd;
+}
+
+}
+
+
+/* customize css by Rocky*/
+.form-search{
+	width:50%;
+	/* margin-bottom:25px */
+}
+.form-search input[type="text"]{
+	width:70%; float:left; padding:5px 10px;
+}
+.form-search input[type="submit"]{
+	width:30%; float: right; border-radius: 0px!important; margin:0 !important
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.singular .entry-title {margin-bottom: 10px;}
+.main-navigation .current_page_item > a,
+.main-navigation .current-menu-item > a {
+    border-bottom: 1px solid #ddd;
+}
+
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a:active {
+    background: #eee
+}
+
+.main-navigation ul ul {padding-left: 0}
+.main-navigation li {
+    margin:0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/* .main-navigation button.menu-toggle{margin-top:0}
+.main-navigation button.menu-toggle::before{visibility: hidden;}
+.main-navigation button.menu-toggle::after{visibility: hidden;} */
+
+@media screen and ( min-width: 45em )
+{
+    .primarymenu {box-shadow: 0 0 5px; border-bottom:none}
+}

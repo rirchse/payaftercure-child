@@ -1,0 +1,113 @@
+h3, h4 {
+  text-align: center;
+  }
+
+  table {
+  width:95%;
+  }
+  th, td {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  text-align: left;
+  vertical-align: middle;
+  }
+
+  ol {
+      width:400px;
+      border:0px solid black;
+          -moz-column-count: 2;
+          -moz-column-gap: 20px;
+          -webkit-column-count: 2;
+          -webkit-column-gap: 20px;
+          column-count: 2;
+          column-gap: 20px;
+      }
+
+  #disclaimer_div, #answers_div, #prescription_not_correct, #prescription_correct {
+  margin-bottom: 15px;
+  }
+
+  .button {
+      height: 30px;
+      line-height: 28px;
+      padding: 0 12px 2px;
+  }
+  .button-primary {
+      background: none repeat scroll 0 0 #2ea2cc;
+      border-color: #0074a2;
+      box-shadow: 0 1px 0 rgba(120, 200, 230, 0.5) inset, 0 1px 0 rgba(0, 0, 0, 0.15);
+      color: #fff;
+      text-decoration: none;
+
+  }
+  .button-primary:hover {
+      background: none repeat scroll 0 0 #1e8cbe;
+      border-color: #0074a2;
+      box-shadow: 0 1px 0 rgba(120, 200, 230, 0.6) inset;
+      color: #fff;
+  }
+
+  .button-next, .button-prev {
+  /* position: relative; */
+  left: 350px;
+  }
+
+  /*progressbar*/
+  #progressbar {
+      margin: 30px 0px 35px 0px;
+      overflow: hidden;
+      /*CSS counters to number the steps*/
+      counter-reset: step;
+      list-style-type: none !important;
+      /*margin: 0 auto;*/
+      /*left: 100px;*/
+      display: block;
+      /*margin-left: 112px;*/
+  }
+  #progressbar li {
+      list-style-type: none !important;
+      color: black;
+      text-transform: uppercase;
+      font-size: 9px;
+      width: 20%;
+      float: left;
+      position: relative;
+      background-image: none !important;
+      padding-left: 0px !important;
+      text-align: center;
+  }
+  #progressbar li:before {
+      content: counter(step);
+      /*counter-increment: step;*/
+      width: 30px;
+      line-height: 30px;
+      display: block;
+      font-size: 13px;
+      font-weight: bold;
+      color: #ffffff;
+      background: #EF8F00;
+      border-radius: 3px;
+      margin: 0 auto 5px auto;
+  }
+  /*progressbar connectors*/
+  #progressbar li:after {
+      content: '';
+      width: 85%;
+      height: 2px;
+      background: #EF8F00 !important;
+      position: absolute;
+      left: -42.50%;
+      top: 14px;
+      z-index: 1; /*put it behind the numbers*/
+      margin-left: 0px;
+  }
+  #progressbar li:first-child:after {
+      /*connector not needed before the first step*/
+      content: none; 
+  }
+  /*marking active/completed steps green*/
+  /*The number of the step and the connector before it = green*/
+  #progressbar li.active:before,  #progressbar li.active:after{
+      background: #27AE60;
+      color: white;
+  }

@@ -1,0 +1,27 @@
+.title {
+  margin-bottom: 35px;
+}
+.form-group {
+  margin-bottom: 25px;
+  border-top: 1px solid #ddd;
+  clear: both;
+  padding-top: 15px;
+}
+.form-group input,
+.form-group select,
+.form-group textarea,
+.form-group input[!type="radio", !type="checkbox"] {
+  display: inline-block;
+  width: 100%;
+}
+.form-group input[type="number"] {
+  padding: 5px 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .form-group .inputs,
+  .form-group label {
+    width: 50%;
+    float: left;
+  }
+}

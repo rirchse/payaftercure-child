@@ -1,0 +1,105 @@
+	/*CSS Added By Gaurang : I have putted that all code to make look better in mobile responsive Date : 19-6-2018 */
+	#frm-portal td:last-child, #admin_form_table td:last-child 
+	{
+		display: table;
+		font-size: 15px !important;
+	}
+	.form_step_6 input[type="radio"] 
+	{
+		width: 5%;
+		margin-left: 0px!important;
+	}
+	.form_step_7 input[type="radio"] 
+	{
+		width: 5%;
+		margin-left: 0px!important;
+	}
+	.form_step_8 input[type="radio"] 
+	{
+		width: 5%;
+		margin-left: 0px!important;
+	}
+	.form_step_9 input[type="radio"] 
+	{
+		width: 5%;
+		margin-left: 0px!important;
+	}
+	.form_step_10 input[type="radio"] 
+	{
+		width: 5%;
+		margin-left: 0px!important;
+	}
+	.form_step_11 input[type="radio"] 
+	{
+		width: 5%;
+		margin-left: 0px!important;
+	}
+	@media only screen and (max-width: 600px) 
+	{
+		.content-wrap{
+			padding: 0 5px;
+		}
+			.hv-FixWidth-tb,.hv-FixWidth-tb td,.hv-FixWidth-tb tbody,.hv-FixWidth-tb tbody tr{
+			width: 100%!important;    display: block; box-sizing: border-box; overflow: hidden;
+		}
+			#frm-email .two-third.body-font,#add_family_member_tr input, .hv-form-width table tbody tr td select{
+			width: 100%!important;    box-sizing: border-box; height: 35px;
+		}
+			.hv-admin_form_table tr, .hv-admin_form_table td, .hv-admin_form_table tbody, .hv-admin_form_table tbody tr, .hv-admin_form_table{
+			width: 100%!important; display: block; box-sizing: border-box;
+		}
+			#select_family_member_tr .one-third.improvement1,#frm-family-member input,.hvFullWidth{
+			width: 100%!important; height: 35px;    box-sizing: border-box;
+		}
+			#add_select_family_member_tr, #add_family_member_tr, #select_family_member_tr {
+			margin-top: 15px;
+		}
+			table td:first-of-type {
+			padding: 0;
+		}
+			.hv-form-width table,.hv-form-width table tbody,.hv-form-width table tbody tr, .hv-form-width table tbody tr td,.hv-form-width table tbody tr td select,.hv-form-width table tbody tr td textarea{
+			display: inline; box-sizing: border-box; width: 100%!important;
+		}
+			#wordpress_file_upload_title_1{
+			margin-bottom:15px;
+		}
+			#btn-portal-cancel{
+			display: block;
+			text-align: center;
+			margin: 10px;
+			}
+			#case-update-grid tr th{
+			padding:5px;    font-size: 12px;
+		}
+			#case-update-grid-div{
+			margin: 0 !important;background: #fff;    padding: 0 5px;
+		}
+			#short_term_section input[type="submit"]{
+			float: none !important; clear: inherit !important;
+		}
+			.back-to-top{
+			margin-top: 0; color: #fff !important;    padding: 5px 0;
+		}
+			#case-update-grid-div h3{
+			margin: 0 auto 20px !important;    text-align: center;
+		}
+			#frm-portal .form_step_6,#frm-portal .form_step_11{
+			margin-top: 15px;
+		}
+		#add_select_family_member_tr td,#select_family_member_tr select.one-third,#admin_form_table td:last-child,select.one-third{
+			width: 100% !important;
+		}
+		.file_title_clean{
+			line-height: 1.5;
+		}
+		tr td:first-child, .ui-datepicker-week-end{
+			width:inherit !important;
+		}
+		.ui-datepicker-calendar table td:first-of-type {
+			padding: 0;
+		}
+		#frm-portal td:last-child, #admin_form_table td:last-child {
+			width: 100% !important;
+			
+		}
+	}
